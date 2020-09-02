@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+body{
+    background-color: #fff;
+}
+
+.container{
+    width: 410px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* align-content: center; */    
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;   
+}
+
+.logo img{
+    /* margin-bottom: 50px; */
+}
+
+.logo p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+    margin: 50px auto;
+}
+
+.category{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+#sales{
+    width: 123px;
+    height: 48px;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 0px 4px 4px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9B9B9B;
+}
+
+#customer{
+    width: 123px;
+    height: 48px;
+    background: #DB3022;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.text{
+    padding: 15px;
+}
+
+#button{
+    height: 48px;
+    background: #DB3022;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+form a{
+    text-decoration: none;
+    font-size: small;
+    color: #DB3022;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#register{
+    font-size: small;
+    margin-top: 20px;
+}
+
+#register a{
+    text-decoration: none;
+    font-size: small;
+    color: #DB3022;
+    text-align: right;
+    margin-bottom: 10px;
+}
