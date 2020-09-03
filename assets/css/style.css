@@ -147,15 +147,13 @@ form a{
 
 .nav-bar .search-bar{
     display: flex;
-    justify-content: space-evenly;
     /* border: 2px solid black; */
     position: relative;
-    flex: 1;
 }
 
 .nav-bar .search-bar .btn-search{
     position: absolute;
-    right: 130px;
+    right: 60px;
     top: 50%;
     transform: translateY(-50%);
 }
