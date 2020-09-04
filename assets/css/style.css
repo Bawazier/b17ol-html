@@ -206,10 +206,11 @@ form a{
 }
 
 .main-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     width: 100%;
     padding: 47px 150px;
-    display: flex;
-    flex-direction: column;
     background: #e5e5e5;
 }
 
@@ -343,3 +344,132 @@ form a{
     line-height: 8px;
     color: #9B9B9B;
 }
+
+
+.main-content .rectangle-row{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    /* justify-content: space-between; */
+    padding: 24px;
+    margin: 10px 0;
+    margin-right: 50px;
+}
+
+.main-content .rectangle-row .items{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    flex: 2;
+}
+
+.main-content .rectangle-row .items img{
+    margin-right: 20px;
+}
+
+.main-content .rectangle-row .items .img-items{
+    width: 70px;
+    height: 69px;
+    border-radius: 8px;
+}
+
+.main-content .rectangle-row .count-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    /* border: 1px solid black; */
+}
+
+.main-content .rectangle-row .count-items img{
+    margin: 20px;
+}
+
+.main-content .rectangle-row .price{
+    display: flex;
+    align-items: center;
+}
+
+.main-content .rectangle-row .description-row{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.main-content .rectangle-row .description-row img{
+    margin-right: 20px;
+}
+
+.main-content .rectangle-row .description-row h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+
+.main-content .rectangle-row .delete{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #DB3022;
+}
+
+.side-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar{
+    order: 1;
+    width: 370px;
+    height: 180px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar .total{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.sidebar .total h4{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #222222;
+}
+
+.sidebar button{
+    width: 100%;
+    height: 36px;
+    background: #DB3022;
+    box-shadow: 0px 4px 8px rgba(211, 38, 38, 0.25);
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.sidebar h2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+
