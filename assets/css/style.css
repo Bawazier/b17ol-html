@@ -231,6 +231,7 @@ form a{
 }
 
 .main-content .promotion{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     /* border: 2px solid black; */
@@ -275,7 +276,7 @@ form a{
     /* padding: 25px 60px; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-evenly;
     /* justify-content: space-around;
     background: #FFFFFF;
     box-shadow: 0px 0px 25px rgba(173, 173, 173, 0.25);
@@ -292,7 +293,8 @@ form a{
     background: #FFFFFF;
     box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
     border-radius: 8px;
-    margin: 25px;
+    /* margin-right: 55px; */
+    margin-bottom: 40px;
 }
 
 .main-content .new-brand .mask-groub .description{
@@ -418,6 +420,7 @@ form a{
 }
 
 .side-content{
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
